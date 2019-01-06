@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/homeScreen.dart';
+import 'screens/appSplashScreen.dart';
 
 import 'classes/colorScheme.dart';
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: AppColorScheme.primaryColor,
       ),
-      home: new MyHomePage(title: 'AOP'),
+      home: new AppSplashScreen(),
     );
   }
 }
