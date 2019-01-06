@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class colorScheme{
+class AppColorScheme{
   static final Color secondaryColorDark = Color(0xFF69306d);
   static final Color secondaryColorLight = Color(0xFFa5668b);
   static final Color accentColorDark = Color(0xFFd3bcc0);
